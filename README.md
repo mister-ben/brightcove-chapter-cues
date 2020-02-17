@@ -7,7 +7,6 @@ PLugin for the Brightcove Player to create a chapters track from cue points set 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Installation](#installation)
   - [Option](#option)
     - [cueName](#cuename)
@@ -28,15 +27,14 @@ Default `chapter`.
 
 ## Usage
 
-* Add the plugin to a player.
-* Set cue points on a video in Video Cloud.
-  * The time should be the chapter start time.
-  * The name should be `chapter` or the value of the `cueName` option.
-  * The metadata shuld be the text label for the chapter.
+- Add the plugin to a player.
+- Set cue points on a video in Video Cloud.
+  - The time should be the chapter start time.
+  - The name should be `chapter` or the value of the `cueName` option.
+  - The metadata shuld be the text label for the chapter.
 
 ## License
 
 MIT. Copyright (c) mister-ben &lt;git@misterben.me&gt;
-
 
 [videojs]: http://videojs.com/

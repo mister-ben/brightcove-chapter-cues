@@ -27,7 +27,6 @@ const onPlayerReady = (player, options) => {
   let chapterTrack;
 
   player.on('loadedmetadata', () => {
-    // debugger;
     if (chapterTrack) {
       player.removeRemoteTextTrack(chapterTrack);
     }
