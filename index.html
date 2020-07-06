@@ -2,12 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>videojs-chapter-cues Demo</title>
+  <title>brightcove-chapter-cues Demo</title>
   <link href="node_modules/video.js/dist/video-js.css" rel="stylesheet">
   
 </head>
 <body>
-  <video id="videojs-chapter-cues-player" class="video-js vjs-default-skin" controls>
+  <video id="brightcove-chapter-cues-player" class="video-js vjs-default-skin" controls>
     <source src="//vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
     <source src="//vjs.zencdn.net/v/oceans.webm" type='video/webm'>
   </video>
@@ -16,10 +16,10 @@
     <li><a href="docs/api/">Read generated docs.</a></li>
   </ul>
   <script src="node_modules/video.js/dist/video.js"></script>
-  <script src="dist/videojs-chapter-cues.js"></script>
+  <script src="dist/brightcove-chapter-cues.js"></script>
   <script>
     (function(window, videojs) {
-      var examplePlayer = window.examplePlayer = videojs('videojs-chapter-cues-player');
+      var examplePlayer = window.examplePlayer = videojs('brightcove-chapter-cues-player');
       examplePlayer.mediainfo = {
         cuePoints: [
           {

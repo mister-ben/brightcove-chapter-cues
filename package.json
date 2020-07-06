@@ -1,9 +1,9 @@
 {
-  "name": "@misterben/videojs-chapter-cues",
+  "name": "@misterben/brightcove-chapter-cues",
   "version": "0.2.0",
-  "description": "Create chapter track from Video Cloud cues",
-  "main": "dist/videojs-chapter-cues.cjs.js",
-  "module": "dist/videojs-chapter-cues.es.js",
+  "description": "Populate player chapter menu from Video Cloud cue points",
+  "main": "dist/brightcove-chapter-cues.cjs.js",
+  "module": "dist/brightcove-chapter-cues.es.js",
   "generator-videojs-plugin": {
     "version": "7.6.3"
   },

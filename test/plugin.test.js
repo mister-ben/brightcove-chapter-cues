@@ -15,7 +15,7 @@ QUnit.test('the environment is sane', function(assert) {
   assert.strictEqual(typeof plugin, 'function', 'plugin is a function');
 });
 
-QUnit.module('videojs-chapter-cues', {
+QUnit.module('brightcove-chapter-cues', {
 
   beforeEach() {
 
@@ -47,7 +47,7 @@ QUnit.test('registers itself with video.js', function(assert) {
   assert.strictEqual(
     typeof Player.prototype.chapterCues,
     'function',
-    'videojs-chapter-cues plugin was registered'
+    'brightcove-chapter-cues plugin was registered'
   );
 
   this.player.chapterCues();
