@@ -16,16 +16,17 @@ Plugin for the Brightcove Player to create a chapters track from cue points set 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## Installation
 
-Add the plugin script to the player configuration. The name is `chapterCues`. The script may be delivered from a CDN such as
+Add the plugin script to the player configuration.
 
-> https://cdn.jsdelivr.net/npm/@misterben/brightcove-chapter-cues/dist/brightcove-chapter-cues.min.js
+* **Plugin name**: `chapterCues`.
+* **Javascript URL***: https://cdn.jsdelivr.net/npm/@misterben/brightcove-chapter-cues/dist/brightcove-chapter-cues.min.js (or a self hosted version)
 
 ### Options
 
-#### cueName
+#### `cueName`
 
-Chapters are generated only from cue points with this _name_.
-Default `chapter`.
+Chapters are generated only from cue points with this _name_ so as not to conflict with cues added for another reason.
+The default is `chapter`.
 
 ## Usage
 
@@ -35,6 +36,8 @@ Default `chapter`.
   - The name must be `chapter`, or the value you set for the `cueName` option.
   - The metadata should be the text label for the chapter.
 - There must be at least two chapters for the chapters menu to show.
+
+<img width="1095" alt="image" src="https://user-images.githubusercontent.com/1676039/129568176-a65bfc56-d55c-4bef-b1ae-4dbec43ddebd.png">
 
 ## License
 
