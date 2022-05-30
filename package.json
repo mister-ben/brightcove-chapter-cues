@@ -1,6 +1,6 @@
 {
   "name": "@misterben/brightcove-chapter-cues",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Populate player chapter menu from Video Cloud cue points",
   "main": "dist/brightcove-chapter-cues.cjs.js",
   "module": "dist/brightcove-chapter-cues.es.js",
