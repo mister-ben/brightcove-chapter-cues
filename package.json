@@ -11,10 +11,6 @@
   "generator-videojs-plugin": {
     "version": "7.6.3"
   },
-  "browserslist": [
-    "defaults",
-    "ie 11"
-  ],
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npm-run-all -p build:*",
@@ -31,7 +27,7 @@
     "test": "npm-run-all test:*",
     "posttest": "shx cat test/dist/coverage/text.txt",
     "test:unit": "karma start scripts/karma.conf.js",
-    "test:verify": "vjsverify --verbose",
+    "test:verify": "vjsverify --skip-es-check --verbose",
     "update-changelog": "conventional-changelog -p videojs -i CHANGELOG.md -s",
     "preversion": "npm test",
     "version": "is-prerelease || npm run update-changelog && git add CHANGELOG.md",
@@ -98,6 +94,6 @@
     "videojs-standard": "^9.0.1"
   },
   "peerDependencies": {
-    "video.js": "^6 || ^7"
+    "video.js": "^6 || ^7 || ^8"
   }
 }
