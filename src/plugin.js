@@ -7,6 +7,8 @@ const defaults = {
   cueName: 'chapter'
 };
 
+const mergeOptions = videojs.obj ? videojs.obj.merge : videojs.mergeOptions;
+
 /**
  * Function to invoke when the player is ready.
  *
@@ -71,7 +73,7 @@ const onPlayerReady = (player, options) => {
  */
 const chapterCues = function(options) {
   this.ready(() => {
-    onPlayerReady(this, videojs.mergeOptions(defaults, options));
+    onPlayerReady(this, mergeOptions(defaults, options));
   });
 };
 
