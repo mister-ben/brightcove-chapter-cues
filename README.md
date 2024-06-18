@@ -34,7 +34,7 @@ The default is `chapter`.
 ## Usage
 
 - Add the plugin to a player.
-- Add cue points to a video in Video Cloud - [see Brightcove documentation](bc-add-cues).
+- Add cue points to a video in Video Cloud - [see Brightcove documentation][bc-add-cues].
   - The time should be the chapter's start time. The end time is inferred as the next chapter cue or the end of the video.
   - The name must be `chapter`, or the value you set for the `cueName` option.
   - The metadata should be the text label for the chapter.
