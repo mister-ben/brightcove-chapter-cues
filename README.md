@@ -1,6 +1,6 @@
 # brightcove-chapter-cues
 
-Plugin for the Brightcove Player to create a chapters track from cue points set in Video Cloud. The chapters button will then be displayed.
+This is a plugin for the Brightcove Player that allows you to set up chapters using the cue point editor in Video Cloud's Media Module instead of uplaoding a vtt file. The chapters button will displayed whenever there are chapters present.
 
 <img width="241" alt="chapters" src="https://user-images.githubusercontent.com/1676039/171051272-286974de-a024-482d-b503-00f50aa01db1.png">
 
@@ -19,7 +19,7 @@ Plugin for the Brightcove Player to create a chapters track from cue points set 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## Installation
 
-Add the plugin script to the player configuration.
+Just add the plugin script to the player configuration.
 
 * **Plugin name**: `chapterCues`.
 * **Javascript URL***: https://cdn.jsdelivr.net/npm/@misterben/brightcove-chapter-cues/dist/brightcove-chapter-cues.min.js (or a self hosted version)
@@ -28,9 +28,8 @@ Add the plugin script to the player configuration.
 
 #### `cueName`
 
-Chapters are generated only from cue points with this _name_ so as not to conflict with cues added for another reason.
-The default is `chapter`.
-
+Chapters are generated only from cue points with this _name_ so as not to conflict with cues added for any other reason.
+The default is `chapter`. 
 ## Usage
 
 - Add the plugin to a player.
